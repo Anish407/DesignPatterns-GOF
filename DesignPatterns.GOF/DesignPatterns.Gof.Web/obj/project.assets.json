@@ -1,0 +1,98 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "Bridge/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Bridge.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Bridge.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Bridge/1.0.0": {
+      "type": "project",
+      "path": "../Bridge/Bridge.csproj",
+      "msbuildProject": "../Bridge/Bridge.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.0": [
+      "Bridge >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Anish\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\Sample Projects\\Design Paterns GOF\\DesignPatterns.GOF\\DesignPatterns.Gof.Web\\DesignPatterns.Gof.Web.csproj",
+      "projectName": "DesignPatterns.Gof.Web",
+      "projectPath": "E:\\Sample Projects\\Design Paterns GOF\\DesignPatterns.GOF\\DesignPatterns.Gof.Web\\DesignPatterns.Gof.Web.csproj",
+      "packagesPath": "C:\\Users\\Anish\\.nuget\\packages\\",
+      "outputPath": "E:\\Sample Projects\\Design Paterns GOF\\DesignPatterns.GOF\\DesignPatterns.Gof.Web\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Anish\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "projectReferences": {
+            "E:\\Sample Projects\\Design Paterns GOF\\DesignPatterns.GOF\\Bridge\\Bridge.csproj": {
+              "projectPath": "E:\\Sample Projects\\Design Paterns GOF\\DesignPatterns.GOF\\Bridge\\Bridge.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.0": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
