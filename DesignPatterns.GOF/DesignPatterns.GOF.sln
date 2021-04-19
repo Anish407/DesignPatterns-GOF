@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bridge", "Bridge\Bridge.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Gof.Web", "DesignPatterns.Gof.Web\DesignPatterns.Gof.Web.csproj", "{C4CE8947-FDC3-4861-B0E2-8513798C23F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "COR.Demo", "COR.Demo\COR.Demo.csproj", "{BE3D0B21-39C4-4D49-84AE-5DB68F1C58CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "COR.Demo", "COR.Demo\COR.Demo.csproj", "{BE3D0B21-39C4-4D49-84AE-5DB68F1C58CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GOF.Decorator", "GOF.Decorator\GOF.Decorator.csproj", "{B500C541-8BC7-48D8-B92D-D82180ED529C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{BE3D0B21-39C4-4D49-84AE-5DB68F1C58CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE3D0B21-39C4-4D49-84AE-5DB68F1C58CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE3D0B21-39C4-4D49-84AE-5DB68F1C58CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B500C541-8BC7-48D8-B92D-D82180ED529C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B500C541-8BC7-48D8-B92D-D82180ED529C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B500C541-8BC7-48D8-B92D-D82180ED529C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B500C541-8BC7-48D8-B92D-D82180ED529C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
